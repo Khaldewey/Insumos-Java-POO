@@ -3,9 +3,12 @@ public class Main {
         //Caneta c1 = new Caneta("BIC", 0.7f, "Azul");
         
         Pessoa p1 = new Pessoa("Raimundo","Masculino","19/05/1996");
-        p1.now();
-        p1.dataNascimento();
-        p1.idade();
+        Funcionario f1 = new Funcionario(p1, "Tecnologia da Informação", "Técnico de Informática", 1670.85f);
+        //p1.now();
+       // p1.dataNascimento();
+        //p1.idade(); 
+        
+        f1.funcionario();
         //p1.dataNascimento();
         // c1.carga = 90;
         //c1.cor = "Azul";
